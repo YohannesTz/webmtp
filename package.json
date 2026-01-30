@@ -4,13 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "BASELINE_BROWSER_MAPPING_IGNORE_OLD_DATA=true next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
     "@next/third-parties": "^16.0.4",
-    "@react-three/fiber": "^9.0.0-alpha.8",
+    "@react-three/fiber": "^9.5.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.24",
@@ -23,6 +23,9 @@
     "tailwind-merge": "^3.4.0",
     "three": "^0.181.2"
   },
+  "overrides": {
+    "baseline-browser-mapping": "^2.9.19"
+  },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
@@ -31,6 +34,7 @@
     "@types/three": "^0.181.0",
     "@types/w3c-web-usb": "^1.0.13",
     "babel-plugin-react-compiler": "1.0.0",
+    "baseline-browser-mapping": "^2.9.19",
     "eslint": "^9",
     "eslint-config-next": "16.0.3",
     "tailwindcss": "^4",
