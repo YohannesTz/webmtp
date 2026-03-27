@@ -1,5 +1,7 @@
 # **WebMTP — Browser-Based Android File Transfer for macOS**
 
+# MINE TOTALLY WORKS. FIX IT BROOK https://webmtp-mu.vercel.app/
+
 A modern, web-powered MTP (Media Transfer Protocol) client built with **Next.js** and **WebUSB**.  
 Transfer files between your Android device and your computer **directly in the browser**—no installation, no background apps, and no clunky Android File Transfer.
 
